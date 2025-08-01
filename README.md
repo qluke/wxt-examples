@@ -1,26 +1,16 @@
-# WXT Examples
+# 基于 AI 解释 WXT 示例核心功能
 
-Examples are available in the [`examples/` directory](./examples).
+示例位于 [`examples/` 目录](./examples)。
 
-To download and run a specific example locally:
+要下载并在本地运行特定示例：
 
 ```sh
 npx giget@latest gh:wxt-dev/examples examples/vue-overlay
 cd vue-overlay
 ```
 
-Then follow the directions in the example's README to run it.
+然后按照示例 README 文件中的说明运行它。
 
-## Contributing Examples
+## WXT 示例源文件
 
-Want to create an example? Please do! Keep in mind that examples should be minimal, well documented, and easy to read. The README should contain basic information about starting the extension, and any addition information about what the example actually does.
-
-The README needs to contain frontmatter, which is used to generate the `metadata.json` file. This file's raw contents is used by https://wxt.dev to create a [nice example search UI](https://wxt.dev/examples.html).
-
-Before merging your PR, please update the `metadata.json` file by running the below command:
-
-```sh
-pnpm -w update-metadata
-```
-
-Review that the changes to the file look good, and you're good to merge :+1:
+https://github.com/wxt-dev/examples
